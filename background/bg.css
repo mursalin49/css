@@ -1,0 +1,11 @@
+h1{
+    color:red;
+    background-color: black;
+}
+body{
+    background-color: rgb(255, 0, 157);
+    background-image: url(2.jpg);
+}
+p{
+  color: white;  
+}
