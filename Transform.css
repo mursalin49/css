@@ -1,0 +1,18 @@
+h1{
+    text-align:center;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+    color: white;
+margin: 100px auto;
+position: relative;
+transform:translateX(-200px);
+}
+.box h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}

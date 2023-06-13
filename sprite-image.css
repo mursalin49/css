@@ -1,0 +1,9 @@
+.social{
+    width: 80px;
+    height: 80px;
+    background-image: url(social.png);
+   background-position: 0 -59px;
+   background-repeat: no-repeat;
+   border-radius: 50%;
+}
+

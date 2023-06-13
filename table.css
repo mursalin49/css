@@ -1,0 +1,14 @@
+table,th,td{
+    border: 4px solid rgb(223, 41, 9);
+    border-collapse:collapse;
+    text-align: left;
+
+}
+table{
+    width:100%;
+}
+th,td{
+    color:red;
+}
+th,td{color:green;
+}
