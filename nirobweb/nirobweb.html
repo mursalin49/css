@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f6d3549dcb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+<style>
+      /* header start*/
+      body{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          background-color: #f7e307;
+      }
+      header{
+          width:100%;
+          background-color: black;
+          color:white;
+          display: flex;
+      }
+       .logo{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 35px;
+          font-weight: bold;
+          margin-left: 20px;
+          padding: 10px;
+      margin-top: 10px;
+      }
+      .navbar{
+          display: flex;
+         
+          padding-left: 50px;
+      }
+      .navbar ul{
+          list-style: none;
+          margin-top: 2%;
+      }
+      .navbar ul li{
+          background-color:#262626;
+          width: 170px;
+          border: 1px solid#fff;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          float: left;
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+          text-transform: uppercase;
+          position: relative;
+      }
+      .navbar ul li a{
+          text-decoration: none;
+          color: white;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+      }
+      .navbar ul li:hover{
+          background-color: crimson;
+          transition: all ease-in 0.5s;
+      }
+      .navbar ul ul {
+          display: none;
+      }
+      .navbar ul li:hover > ul{ 
+          display: block;
+      }
+      /* header end */
+      /* footer start*/
+      footer{
+          height:190px;
+          position: absolute;
+          bottom: 0;
+          text-align: center;
+          background-color: rgb(28, 24, 25);
+          width: 100%;
+          color: white;
+      
+      }
+      .name h2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          font-size: 40px;
+      }
+      .text p{
+          width: 500px;
+          text-align: center;
+          margin: 0 auto;
+          position: relative;
+          top: -20px;
+      }
+      .icon i{
+          font-size: 35px;
+          position: relative;
+          top: -10px;
+          padding: 10px;
+      }
+      .copy{
+          height: 50px;
+          width: 100%;
+          background-color: black;
+          font-size: 25px;
+          line-height: 50px;
+      
+      }
+      /* footer end */
+      /* form start */
+      .form1{
+          background-color: crimson;
+          color: white;
+          text-align: center;
+          font-size: 40px;
+          margin: 0 auto;
+          width: 180px;
+          height: 230px;
+          padding: 20px 80px;
+          margin-top: 15px;
+          border-radius: 10%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2),0 6px 20px 0 rgba(0, 0,0, 0.19);
+      }
+      .form1 input{
+          padding: 5px 20px;
+          border-color: rgb(11, 248, 3);
+          border-radius: 50px;
+      }
+      .form1 .btn{
+          font-weight: bold;
+      } </style>
+    <title>Nirob Website</title>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div class="logo">
+            Nirob Hasan
+        </div>
+        <div class="navbar">
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Blog</a></li>
+                <li> <a href="#">Services</a>
+                <ul>
+                    <li> Graphics</li>
+                    <li>Web Design</li>
+                    <li> Web Development</li>
+                </ul>
+                </li>
+                <li><a href="#"> About Us</a> </li>
+            </ul>
+        </div>
+       </header>
+       <!--header end-->
+       <!--footer start-->
+    <footer>
+        <div>
+            <h2>Nirob Hasan</h2>
+        </div>
+        <div class="text"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste itaque ratione vero architecto odit sunt velit officiis? Reiciendis voluptates, iusto, consequatur nulla veritatis incidunt inventore quis quam maiores itaque aspernatur?</p></div>
+        <div class="icon">
+<i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-youtube"></i>
+        </div>
+        <div class="copy"> Copyright @2022 by Nirob Hasan</div>
+    </footer>
+    <!--footer end-->
+
+<!--form start-->
+<div class="form1">
+    <form action="#" method="GET">
+        Email:<br>
+        <input type="text" name="username" id="email"> <br>
+        Password: <br>
+        <input type="password" name="password" id="pass"> <br> 
+        <input type="reset" value="Reset" class="btn">
+        <input type="submit" value="Log In " class="btn">
+    </form>
+    <!--form end-->
+</div>
+</body>
+</html>
